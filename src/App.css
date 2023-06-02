@@ -1,0 +1,165 @@
+/* Bu yerda header boshlandi*/
+.my-header{
+  
+  background-color: black;
+  color: white;
+  position: relative;
+}
+header a{
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+header h1{
+  padding: 0 0 0 120px;
+}
+
+header .my-menu  {
+  display: flex; /*/*elementlarni bir chiziqa olib*/
+  justify-content:space-between ;/*elementlarniorasini ochib beradi*/
+   align-items: center;/*elementlarni sentrga olib beradi*/
+
+}
+header ul{
+ display: flex; 
+ margin: 0;
+ padding: 0;
+list-style-type: none;
+}
+hr{
+ height: 1px;
+ width: 70%;
+ border-top: 1px solid white;
+ 
+}
+
+.about{
+  position: relative;
+  text-align: center;
+  
+  
+}
+.about h3 {
+  padding: 0 0 40px 0;
+}
+.about-name{
+
+  font-size: 2rem;
+  color: rgb(220, 116, 116);
+  
+}
+.about-job{
+  font-size: 1.5rem;
+  
+  
+}
+#picture img{
+  position:absolute;
+  height: 280px;
+  width: 280px;
+  border-radius: 3rem;
+  left: 200px;
+  top: -150px;
+  
+
+
+}
+/*bu yerda header tugadi*/
+
+/*Bu yerdan home section boshlandi*/
+section {
+  
+}
+ .home-child{
+  position:relative;
+  top: 320px;
+  background-image: url(https://static.wixstatic.com/media/ad420a_0966fded081b4a12988a616e305424d1~mv2.jpg/v1/fill/w_980,h_1002,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ad420a_0966fded081b4a12988a616e305424d1~mv2.jpg);
+  background-position: center;
+  background-repeat:no-repeat ;
+  background-size: 100%;
+  color: white;
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  padding: 220px 200px;
+  
+}
+.hometext{
+  background-color: black;
+  display: flex;
+  padding: 0px;
+  opacity:0.9;
+  
+
+}
+.text h3  {
+position: relative;
+bottom: -50px;
+left: 42px;
+font-size: 35px;
+display: f;
+
+  
+  
+  
+}
+
+.hometext p{
+
+  position: relative;
+  bottom: -50px;
+  font-size: 20px;
+  left: 40px;
+  
+}
+.hometext ul{
+  
+  display: flex;
+  list-style-type: none;
+
+  
+
+}
+.hometext a{
+  font-size: 20px;
+  position: relative;
+  color: rgb(220, 116, 116);
+  margin: 8px;
+  bottom: -600px;
+  left: -190px;
+  border: 1px solid  rgb(220, 116, 116);
+  border-radius: 100px;
+  padding: 9px;
+}
+.hometext a:hover{
+  background-color: rgb(220, 116, 116) ;
+  color: black;
+  cursor:pointer;
+}
+.hometext h4{
+  position: relative;
+  top: 19px;
+  background-color:rgb(220, 116, 116); 
+  font-size: 20px;
+  color: black;
+  border: 1px solid rgb(220, 116, 116);
+}
+
+footer{
+  position: relative;
+  background-color: rgb(220, 116, 116);
+  width: 100%;
+  height: 60px;
+  bottom: -1080px;
+  
+}
+
+footer p{
+  
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  padding: 18px;
+}
